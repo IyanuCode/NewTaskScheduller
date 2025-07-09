@@ -7,7 +7,7 @@ namespace NewTaskScheduller.Services
 {
     public class FileService
     {
-        private string filePath = "tasks.txt";
+        private readonly string filePath = "tasks.txt";
 
         //save task to file
         public void SaveTasks(List<ScheduledTask> tasks)
@@ -21,6 +21,7 @@ namespace NewTaskScheduller.Services
                 }
             }
         }
+        
         // load task from file
         public List<ScheduledTask> LoadTasks()
         {
@@ -44,7 +45,7 @@ namespace NewTaskScheduller.Services
                         DateCreated = DateTime.Parse(parts[2]),
                         Deadline = DateTime.Parse(parts[3]),
                         IsCompleted = bool.Parse(parts[4])
-                     });
+                    });
                 }
             }
             return tasks;

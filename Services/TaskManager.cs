@@ -12,16 +12,20 @@ namespace NewTaskScheduller.Services
 
         public TaskManager()
         {
+            //loading saved task
             fileService = new FileService();
             tasks = fileService.LoadTasks();
         }
+
+
         /*-------------------Add Task Method --------------------- */
         public void AddTask()
         {
             Console.Clear();
             Console.WriteLine("=== ADD NEW TASK ===");
+
             //Task Name Input with validation untill user enters the right word
-            string name;
+            string? name;
             do
             {
                 Console.Write("Enter task name: ");
@@ -34,7 +38,7 @@ namespace NewTaskScheduller.Services
             } while (string.IsNullOrWhiteSpace(name) || name.Any(Char.IsDigit));
 
             //Description
-            string description;
+            string? description;
             do
             {
                 Console.Write("Enter task description (min 10 characters): ");
@@ -50,8 +54,8 @@ namespace NewTaskScheduller.Services
             while (true)
             {
                 Console.Write("Enter deadline (yyyy-mm-dd): ");
-                string dateInput = Console.ReadLine();
-                if (DateTime.TryParse(dateInput, out deadline) && deadline >= DateTime.Today)
+                string? dateInput = Console.ReadLine();
+                if (!string.IsNullOrWhiteSpace(dateInput) && DateTime.TryParse(dateInput, out deadline) && deadline >= DateTime.Today)
                 {
                     break;
                 }
@@ -160,7 +164,7 @@ namespace NewTaskScheduller.Services
             }
 
             Console.Write("\nSelect the number of task to mark as completed");
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
 
             if (int.TryParse(input, out int SelectedIndex) && SelectedIndex >= 1 && SelectedIndex <= pending.Count)
             {
