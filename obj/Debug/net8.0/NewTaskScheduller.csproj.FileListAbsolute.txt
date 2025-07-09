@@ -1,0 +1,14 @@
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\bin\Debug\net8.0\NewTaskScheduller.exe
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\bin\Debug\net8.0\NewTaskScheduller.deps.json
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\bin\Debug\net8.0\NewTaskScheduller.runtimeconfig.json
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\bin\Debug\net8.0\NewTaskScheduller.dll
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\bin\Debug\net8.0\NewTaskScheduller.pdb
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.AssemblyInfoInputs.cache
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.AssemblyInfo.cs
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.csproj.CoreCompileInputs.cache
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.dll
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\refint\NewTaskScheduller.dll
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.pdb
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\NewTaskScheduller.genruntimeconfig.cache
+C:\Users\Iyanu\Documents\C#_Projects\VS code\NewTaskScheduller\obj\Debug\net8.0\ref\NewTaskScheduller.dll
